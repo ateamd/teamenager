@@ -1,7 +1,2 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: adrian
- * Date: 10.04.14
- * Time: 17:32
- */ 
+<?php ?>
+<h1>Panel  </h1>
