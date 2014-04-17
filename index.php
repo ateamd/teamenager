@@ -9,27 +9,28 @@ session_start();
         <link rel="shortcut icon" href="img/ico.png"/>
     </head>
 
-    <body>
-    <div class="container">
-        <div id="menu">
-            <?php include 'section/menu.php'; ?>
+        <body>
+        <div id="container">
+        <div class="content">
+            <div class="top_block header">
+                <?php include 'section/menu.php'; ?>
+            </div>
+            <div class="top_block panel">
+                <?php include 'section/panel.php'; ?>
+            </div>
+            <div class="top_block main">
+                <div class="content">
+                    <?php include 'section/main_side.php'; ?>
+                    <div class="background rightbar"></div>
+                    <div class="right_block rightbar">
+                        <?php include 'section/right_bar.php'; ?>
+                    </div>
+                </div>
+            </div>
+            <div class="top_block footer">
+                <?php include 'section/footer.php'; ?>
+            </div>
         </div>
-
-        <div id="panel">
-            <?php include 'section/panel.php'; ?>
-        </div>
-
-        <div id="main_side">
-            <?php include 'section/main_side.php'; ?>
-        </div>
-
-        <div id="right_bar">
-            <?php include 'section/right_bar.php'; ?>
-        </div>
-
-        <div id="footer">
-            <?php include 'section/footer.php'; ?>
-
         </div>
     </body>
 </html>

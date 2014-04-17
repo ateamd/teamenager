@@ -1,2 +1,4 @@
 <?php ?>
-<h1>Panel  </h1>
+<div class="content">
+    <h1>Panel</h1>
+</div>

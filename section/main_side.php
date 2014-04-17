@@ -1,2 +1,4 @@
 <?php ?>
-<h1>Main side</h1>
+
+    <h1>Main side</h1>
+

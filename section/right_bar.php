@@ -1,2 +1,4 @@
 <?php ?>
-<h1>Right Bar</h1>
+<div class="content_r">
+    <h3>Right Bar</h3>
+</div>
