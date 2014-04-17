@@ -1,5 +1,5 @@
 <?php ?>
 <div class="content">
-    <h1>Footer</h1>
+    <h6>&#169 2014 ATD. All rights reserved. </h6>
 </div>
 
